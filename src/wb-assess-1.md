@@ -13,7 +13,7 @@
 
 Which statement is true about JavaScript?
 
-- [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
+- [x] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
 - [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
@@ -30,7 +30,7 @@ let sum = 1;
 Which of these lines of code will cause `sum` to have a value of `2`? You can select more than one
 answer.
 
-- [ ] **A.** `sum++`
+- [x] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
 - [ ] **D.** All of the above
