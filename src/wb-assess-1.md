@@ -13,11 +13,11 @@
 
 Which statement is true about JavaScript?
 
-- [x] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
+- [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
 - [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
-- [ ] **E.** None of the above are true.
+- [x] **E.** None of the above are true.
 
 ### A.2. Turn `sum` to `2`.
 
@@ -30,11 +30,11 @@ let sum = 1;
 Which of these lines of code will cause `sum` to have a value of `2`? You can select more than one
 answer.
 
-- [x] **A.** `sum++`
+- [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
 - [ ] **D.** All of the above
-- [ ] **E.** Some of the above
+- [x] **E.** Some of the above
 
 ### A.3. What's the output?
 
@@ -45,7 +45,7 @@ const result = 1 < 100 || 'hello' === 'hi';
 console.log(result);
 ```
 
-- [ ] **A.** `true`
+- [x] **A.** `true`
 - [ ] **B.** `false`
 - [ ] **C.** `undefined`
 - [ ] **D.** N/A because the code has an error
