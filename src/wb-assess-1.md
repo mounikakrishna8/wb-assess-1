@@ -25,6 +25,7 @@ Assume you've initialized a variable, `sum`, like so:
 
 ```js
 let sum = 1;
+sun += 1;
 ```
 
 Which of these lines of code will cause `sum` to have a value of `2`? You can select more than one
@@ -33,8 +34,8 @@ answer.
 - [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
-- [ ] **D.** All of the above
-- [x] **E.** Some of the above
+- [x] **D.** All of the above
+- [ ] **E.** Some of the above
 
 ### A.3. What's the output?
 
@@ -64,7 +65,7 @@ if (word) {
 ```
 
 - [ ] **A.** `yay!`
-- [ ] **B.** `no :(`
+- [x] **B.** `no :(`
 - [ ] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
@@ -74,7 +75,7 @@ The code below is incomplete. There's a blank space inside the `for` loop:
 
 ```js
 const fruits = ['apple', 'berry', 'cherry'];
-for (______) {
+for (let fruit of fruits) {
   console.log(fruit);
 }
 ```
@@ -225,13 +226,14 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+console.log helps to log the data. it is helpful while debugging the code.
+=> return ends the funtion by returning some output.
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+=> Defining function is like declaring a funtion to perform a task repeatetively. where as calling a function is to do the task. 
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +243,27 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A string is a sequence of characters which you place inside single quotes '' or double quotes "".
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A number is a primitive data type. A number in javascript should be positive and negative integers and decimals.
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A boolean is a primitive data type which will be either true or false. 
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+=> An array is a complex data type. It can be thought of as a list. 
+=> An array can contain any data type or even a mix of data types.
+=> Arrays are created by using suare brackets([]),with each item seerated by a comma. Items are organized by 'indexes', which starts at 0.
 ```
 
 ### B.3. Trace the value of `x`
@@ -282,7 +286,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
