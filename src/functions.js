@@ -65,16 +65,22 @@ function censorVowels(string) {
 //   stickyCase('hello world');
 //   => 'hElLo wOrLd'
 function stickyCase(string) {
-  let stickyCase = '';
-  for (let i = 0; i < string.length; i++){
-    if(string[i] % 2 == 0){
-      stickyCase = stickyCase + string[i].toUpper();
-    } else {
-      stickyCase = stickyCase + string[i];
-    }
+  let splitPhrase = string.split(' ');
+  let result = [];
+  for(let arr of splitPhrase){
+    let stickyCase = '';
+      for (let i = 0; i < arr.length; i++){
+        if(i % 2 == 0){
+          stickyCase = stickyCase + arr[i];
+        } else {
+          stickyCase = stickyCase + arr[i].toUpperCase();
+        }
 
+      }
+      result.push(stickyCase);
+  
   }
-  return stickyCase ;
+  return result.join(' ');
 }
 
 // Return the given string in leetspeak. Leetspeak is a modified version of
