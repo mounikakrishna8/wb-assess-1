@@ -89,7 +89,7 @@ cherry
 ```
 
 - [ ] **A.** `const fruit in fruits`
-- [ ] **B.** `const fruit of fruits`
+- [x] **B.** `const fruit of fruits`
 - [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
 - [ ] **D.** None of the above
 
