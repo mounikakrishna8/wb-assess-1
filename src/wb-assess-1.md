@@ -16,8 +16,8 @@ Which statement is true about JavaScript?
 - [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
 - [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
-- [ ] **D.** All of the above are true.
-- [x] **E.** None of the above are true.
+- [x] **D.** All of the above are true.
+- [ ] **E.** None of the above are true.
 
 ### A.2. Turn `sum` to `2`.
 
@@ -233,7 +233,7 @@ console.log helps to log the data. it is helpful while debugging the code.
 **_What's the difference between defining and calling a function?_**
 
 ```
-=> Defining function is like declaring a function to perform a task repeatetively. where as calling a function is to do that task. 
+=> Defining function is like declaring a function to perform a task repeatetively. where as calling a function is to do that task. when we call a function it executes any code written inside of it.
 ```
 
 ### B.2. Describe these data types.
