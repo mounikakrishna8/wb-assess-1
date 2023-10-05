@@ -4,7 +4,7 @@ describe('further-study.js', () => {
   describe('commonStrings', () => {
     test('should return the strings common to both input arrays', async () => {
       expect(furtherStudy.commonStrings(['a', 'b', 'c'], ['a', 'd', 'e'])).toEqual(['a']);
-      expect(furtherStudy.commonStrings([], ['a', 'd', 'e'])).toEqual(['a']);
+      expect(furtherStudy.commonStrings(['a'], ['a', 'd', 'e'])).toEqual(['a']);
     });
 
     test('should not return duplicates', async () => {
